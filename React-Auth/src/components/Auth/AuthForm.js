@@ -33,7 +33,7 @@ const AuthForm = () => {
         'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyA4OL4cr01RLcp2G-Z_xNSYrSlBKYe6iH4';
     } else {
       url =
-        'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyA4OL4cr01RLcp2G-Z_xNSYrSlBKYe6iH4';
+        'https://identitytoolkit.googleapis.com/v1/accounts:signUpkey=AIzaSyA4OL4cr01RLcp2G-Z_xNSYrSlBKYe6iH4';
     }
     fetch(url, {
       method: 'POST',
