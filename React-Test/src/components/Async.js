@@ -23,3 +23,4 @@ const Async = () => {
 };
 
 export default Async;
+
